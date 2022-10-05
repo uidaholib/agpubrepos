@@ -14,7 +14,7 @@ function displayItem(record, prev_id, next_id) {
         if (record.filename.includes("/")) { 
             var objectSrc = record.filename; 
         } else { 
-            var objectSrc = "{{ '/objects/' | relative_url }}" + record.filename; 
+            var objectSrc = record.filename; 
         }
     }
     var itemImage, itemLink;
@@ -40,7 +40,7 @@ function displayItem(record, prev_id, next_id) {
     } else {
         /* fall back to no preview if it doesn't know the format */
         itemImage= '<img class="w-50" src="{{ "/assets/lib/icons/file-earmark.svg" | relative_url }}" alt="No preview found">';
-        itemLink= '<a href="' + objectSrc + '" target="_blank" class="m-2 btn btn-dark" title="Object download">Download Object</a>';
+        itemLink= '<a href="' + objectSrc + '" target="_blank" class="m-2 btn btn-dark" title="Object download">Go to Repo</a>';
     }
 
     {% if stubs contains "timeline" %}

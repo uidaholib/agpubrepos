@@ -6,7 +6,7 @@ state,state,true
 university,university,true
 repo-y-or-no,repo-y-or-no
 reponame,reponame
-url,url,,true
+filename,filename,,true
 pubtitle,pubtitle
 titlesincollection,titlesincollection
 agency,agency,true
