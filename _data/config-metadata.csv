@@ -1,15 +1,19 @@
 field,display_name,browse_link,external_link
 title,Title,
-creator,Creator,
-date,Date Created,
+date-range,Date Range,
 description,Description,
-subject,Subjects,true
-location,Location
-latitude,Latitude
-longitude,Longitude
-source,Source
-identifier,Source Identifier,,
-type,Type,
-format,Format,
-rights,Rights,
-rightsstatement,Rights Statement,,true
+state,state,true
+university,university,true
+repo-y-or-no,repo-y-or-no
+reponame,reponame
+url,url,,true
+pubtitle,pubtitle
+titlesincollection,titlesincollection
+agency,agency,true
+numberofitems,numberofitems
+date-range,date-range
+software,software
+imagefile?,imagefile?
+pdf?,pdf?
+type,type
+format,format

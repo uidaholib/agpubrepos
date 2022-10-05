@@ -1,5 +1,8 @@
 field,display_name,btn,hidden,sort_name
-date,Date,,,Date
-creator,Creator,,,
-subject,,true
-location,,true
+date-range,Date Range
+state,State,true
+university,University,true
+reponame,Repository Name,true
+pubtitle,pubtitle
+titlesincollection,titlesincollection
+agency,agency,true

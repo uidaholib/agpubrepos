@@ -2,24 +2,27 @@
 # Default home page with boxes providing collection stats
 layout: page
 custom-foot: js/home-js.html
+
 ---
 <div class="row">
   <div class="col-md-8">
 
     {% include index/description.html %}
 
-    {% include index/carousel.html title="Sample Items" height=450 %}
+    {% include index/featured-terms.html field="pubtitle;titlesincollection" title="Titles" btn-color="success" max=8 %}
+
+    {% include index/featured-terms.html field="state" title="States" btn-color="primary" max=8 %}
   
+
   </div>
   <div class="col-md-4">
 
-    {% include index/time.html %}
 
-    {% include index/featured-terms.html field="subject" title="Top Subjects" btn-color="primary" max=8 %}
+    {% include index/featured-terms.html field="agency" title="Top Agencies" btn-color="primary" max=8 %}
 
-    {% include index/featured-terms.html field="creator" title="Creators" btn-color="success" max=8 %}
+    {% include index/featured-terms.html field="university" title="Universities" btn-color="success" max=8 %}
 
-    {% include index/objects.html %}
+
 
   </div>
   
